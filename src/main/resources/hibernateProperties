@@ -1,0 +1,11 @@
+# MySQL properties
+hibernate.driver_class = com.mysql.cj.jdbc.Driver
+hibernate.connection.url = jdbc:mysql://localhost:3306/mydbs
+hibernate.connection.username = root
+hibernate.connection.password = javajava
+db.entity.package = spring_mvc_nibernate.entity
+
+#Hibernate properties
+hibernate.dialect = org.hibernate.dialect.MySQL5Dialect
+hibernate.show_sql = true
+hibernate.hbm2ddl.auto = update
